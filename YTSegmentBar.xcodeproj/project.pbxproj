@@ -13,6 +13,16 @@
 		3FE1B37521B4E33700441BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE1B37421B4E33700441BAD /* Assets.xcassets */; };
 		3FE1B37821B4E33700441BAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE1B37621B4E33700441BAD /* LaunchScreen.storyboard */; };
 		3FE1B37B21B4E33700441BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1B37A21B4E33700441BAD /* main.m */; };
+		3FE1B38321B4EE2D00441BAD /* YTSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1B38221B4EE2D00441BAD /* YTSegmentBar.m */; };
+		3FE1B38721B4EE7000441BAD /* YTSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1B38621B4EE7000441BAD /* YTSegmentBarConfig.m */; };
+		3FE1B38A21B4FD6500441BAD /* UIView+YTSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1B38921B4FD6500441BAD /* UIView+YTSegmentBar.m */; };
+		3FE1B38D21B5014A00441BAD /* YTSegmentBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1B38C21B5014A00441BAD /* YTSegmentBarVC.m */; };
+		3FE1B39021B5074D00441BAD /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1B38F21B5074D00441BAD /* OneViewController.m */; };
+		3FE1B39321B5075800441BAD /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1B39221B5075800441BAD /* TwoViewController.m */; };
+		3FE1B39621B5076100441BAD /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1B39521B5076100441BAD /* ThreeViewController.m */; };
+		3FE1B39921B5086100441BAD /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1B39821B5086100441BAD /* FourViewController.m */; };
+		3FE1B39C21B5087800441BAD /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1B39B21B5087800441BAD /* FiveViewController.m */; };
+		3FE1B39F21B5088400441BAD /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1B39E21B5088400441BAD /* SixViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,26 @@
 		3FE1B37721B4E33700441BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FE1B37921B4E33700441BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FE1B37A21B4E33700441BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FE1B38121B4EE2D00441BAD /* YTSegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTSegmentBar.h; sourceTree = "<group>"; };
+		3FE1B38221B4EE2D00441BAD /* YTSegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTSegmentBar.m; sourceTree = "<group>"; };
+		3FE1B38521B4EE7000441BAD /* YTSegmentBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTSegmentBarConfig.h; sourceTree = "<group>"; };
+		3FE1B38621B4EE7000441BAD /* YTSegmentBarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTSegmentBarConfig.m; sourceTree = "<group>"; };
+		3FE1B38821B4FD6500441BAD /* UIView+YTSegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YTSegmentBar.h"; sourceTree = "<group>"; };
+		3FE1B38921B4FD6500441BAD /* UIView+YTSegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YTSegmentBar.m"; sourceTree = "<group>"; };
+		3FE1B38B21B5014A00441BAD /* YTSegmentBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTSegmentBarVC.h; sourceTree = "<group>"; };
+		3FE1B38C21B5014A00441BAD /* YTSegmentBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTSegmentBarVC.m; sourceTree = "<group>"; };
+		3FE1B38E21B5074D00441BAD /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		3FE1B38F21B5074D00441BAD /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		3FE1B39121B5075800441BAD /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		3FE1B39221B5075800441BAD /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		3FE1B39421B5076100441BAD /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		3FE1B39521B5076100441BAD /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		3FE1B39721B5086100441BAD /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		3FE1B39821B5086100441BAD /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		3FE1B39A21B5087800441BAD /* FiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		3FE1B39B21B5087800441BAD /* FiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		3FE1B39D21B5088400441BAD /* SixViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		3FE1B39E21B5088400441BAD /* SixViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +88,43 @@
 		3FE1B36A21B4E33700441BAD /* YTSegmentBar */ = {
 			isa = PBXGroup;
 			children = (
+				3FE1B38421B4EE3400441BAD /* YTSegmentBar */,
 				3FE1B36B21B4E33700441BAD /* AppDelegate.h */,
 				3FE1B36C21B4E33700441BAD /* AppDelegate.m */,
 				3FE1B36E21B4E33700441BAD /* ViewController.h */,
 				3FE1B36F21B4E33700441BAD /* ViewController.m */,
+				3FE1B38E21B5074D00441BAD /* OneViewController.h */,
+				3FE1B38F21B5074D00441BAD /* OneViewController.m */,
+				3FE1B39121B5075800441BAD /* TwoViewController.h */,
+				3FE1B39221B5075800441BAD /* TwoViewController.m */,
+				3FE1B39421B5076100441BAD /* ThreeViewController.h */,
+				3FE1B39521B5076100441BAD /* ThreeViewController.m */,
+				3FE1B39721B5086100441BAD /* FourViewController.h */,
+				3FE1B39821B5086100441BAD /* FourViewController.m */,
+				3FE1B39A21B5087800441BAD /* FiveViewController.h */,
+				3FE1B39B21B5087800441BAD /* FiveViewController.m */,
+				3FE1B39D21B5088400441BAD /* SixViewController.h */,
+				3FE1B39E21B5088400441BAD /* SixViewController.m */,
 				3FE1B37121B4E33700441BAD /* Main.storyboard */,
 				3FE1B37421B4E33700441BAD /* Assets.xcassets */,
 				3FE1B37621B4E33700441BAD /* LaunchScreen.storyboard */,
 				3FE1B37921B4E33700441BAD /* Info.plist */,
 				3FE1B37A21B4E33700441BAD /* main.m */,
+			);
+			path = YTSegmentBar;
+			sourceTree = "<group>";
+		};
+		3FE1B38421B4EE3400441BAD /* YTSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				3FE1B38121B4EE2D00441BAD /* YTSegmentBar.h */,
+				3FE1B38221B4EE2D00441BAD /* YTSegmentBar.m */,
+				3FE1B38521B4EE7000441BAD /* YTSegmentBarConfig.h */,
+				3FE1B38621B4EE7000441BAD /* YTSegmentBarConfig.m */,
+				3FE1B38821B4FD6500441BAD /* UIView+YTSegmentBar.h */,
+				3FE1B38921B4FD6500441BAD /* UIView+YTSegmentBar.m */,
+				3FE1B38B21B5014A00441BAD /* YTSegmentBarVC.h */,
+				3FE1B38C21B5014A00441BAD /* YTSegmentBarVC.m */,
 			);
 			path = YTSegmentBar;
 			sourceTree = "<group>";
@@ -142,9 +200,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE1B39C21B5087800441BAD /* FiveViewController.m in Sources */,
 				3FE1B37021B4E33700441BAD /* ViewController.m in Sources */,
 				3FE1B37B21B4E33700441BAD /* main.m in Sources */,
+				3FE1B38D21B5014A00441BAD /* YTSegmentBarVC.m in Sources */,
+				3FE1B38321B4EE2D00441BAD /* YTSegmentBar.m in Sources */,
+				3FE1B39F21B5088400441BAD /* SixViewController.m in Sources */,
+				3FE1B38A21B4FD6500441BAD /* UIView+YTSegmentBar.m in Sources */,
+				3FE1B38721B4EE7000441BAD /* YTSegmentBarConfig.m in Sources */,
+				3FE1B39321B5075800441BAD /* TwoViewController.m in Sources */,
 				3FE1B36D21B4E33700441BAD /* AppDelegate.m in Sources */,
+				3FE1B39021B5074D00441BAD /* OneViewController.m in Sources */,
+				3FE1B39921B5086100441BAD /* FourViewController.m in Sources */,
+				3FE1B39621B5076100441BAD /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -281,10 +349,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5TCTELK25;
 				INFOPLIST_FILE = YTSegmentBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CrystalIsland.YTSegmentBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,10 +364,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5TCTELK25;
 				INFOPLIST_FILE = YTSegmentBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CrystalIsland.YTSegmentBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
